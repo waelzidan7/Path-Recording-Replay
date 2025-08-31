@@ -122,23 +122,23 @@ xdg-open videos/${RUN}_replay.mp4
 
 ---
 
-## Feature
+## 6. Feature
 Path Recording & Replay for ORB-SLAM3 trajectories (RGB-only, no GPS).  
 Exports **topdown.png**, **3d.png**, and **replay.mp4** from TUM/CSV using `tools/replay_trajectory.py`.
 
-## Examples
+## 7. Examples
 Included artifacts:
 - `examples/room/` → `topdown.png`, `3d.png`, `replay.mp4`
 - `examples/xyz/`  → `topdown.png`, `3d.png`, `replay.mp4`
 
-## Slides
+## 8. Slides
 See **[`docs/slides.md`](docs/slides.md)** for a concise overview (goal, feature, pipeline, implementation, results, limitations, credits).
 
-## Dependencies note
+## 9. Dependencies note
 Python: `numpy`, `pandas`, `matplotlib` (see `requirements.txt`).  
 System: `ffmpeg` (needed for MP4 export).
 
-## Acknowledgments
+## 10. Acknowledgments
 ORB-SLAM3 (UZ-SLAMLab), TUM RGB-D dataset (fr1_room, fr1_xyz).  
 ChatGPT assisted with refactoring/docs;
 
