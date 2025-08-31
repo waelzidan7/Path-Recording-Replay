@@ -135,6 +135,13 @@ Included artifacts:
 See **[`docs/slides.md`](docs/slides.md)** for a concise overview (goal, feature, pipeline, implementation, results, limitations, credits).
 
 ## 9. Dependencies note
+
+**System dep (for MP4 export):** `ffmpeg`
+
+**Install ffmpeg**
+- Ubuntu/Debian: `sudo apt-get update && sudo apt-get install -y ffmpeg`
+- macOS (Homebrew): `brew install ffmpeg`
+- Windows (Chocolatey): `choco install ffmpeg`
 Python: `numpy`, `pandas`, `matplotlib` (see `requirements.txt`).  
 System: `ffmpeg` (needed for MP4 export).
 
