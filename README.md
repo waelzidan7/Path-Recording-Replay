@@ -163,3 +163,5 @@ System: `ffmpeg` (needed for MP4 export).
 ## Acknowledgments
 ORB-SLAM3 (UZ-SLAMLab), TUM RGB-D dataset (fr1_room, fr1_xyz).  
 ChatGPT assisted with refactoring/docs; outputs validated locally.
+
+<!-- minor wording tweak -->
