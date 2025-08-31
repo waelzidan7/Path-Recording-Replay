@@ -117,3 +117,5 @@ To play the replay video:
 ```bash
 xdg-open videos/${RUN}_replay.mp4
 ```
+
+**System dep for MP4**: `ffmpeg` (sudo apt-get install -y ffmpeg)
